@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tamagochi Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&family=Rubik+Puddles&display=swap"
+          rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mainContainer d-flex flex-column align-items-center justify-content-between" id="selectContainer">
+    <div class="title mt-3" id="title">Welcome to the Game</div>
+    <div class="animalContainer d-flex flex-wrap" id="selectYourAnimal">Choose your animal:</div>
+    <div class="startGameButton mb-3" id="startGame">Start game</div>
+</div>
+
+<div class="mainContainer d-flex flex-column align-items-center justify-content-center d-none" id="gameContainer">
+    <div class="status d-flex gap-5" id="status">
+        <div id="hunger">Hunger: 0</div>
+        <div id="happiness">Happiness: 100</div>
+        <div id="energy">Energy: 100</div>
+    </div>
+    <div class="animalRoad" id="animalRoad">
+        <div class="icon" id="animalIconElem"></div>
+    </div>
+    <div class="d-flex">
+        <div class="startGameButton mb-3" id="feedButton">Feed</div>
+        <div class="startGameButton mb-3" id="playButton">Play</div>
+        <div class="startGameButton mb-3" id="sleepButton">Sleep</div>
+    </div>
+</div>
+</body>
+</html>

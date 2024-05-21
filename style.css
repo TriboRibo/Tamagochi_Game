@@ -1,0 +1,152 @@
+.mainContainer {
+  background-image: url("mainContainer.png");
+  width: auto;
+  height: 100vh;
+}
+
+.animalContainer {
+  border-radius: 25px 10px 25px 10px;
+  border: 8px double #d8e1ce;
+  -moz-border-radius: 25px 10px 25px 10px;
+  -webkit-border-radius: 25px 10px 25px 10px;
+  color: #ffffff;
+  font-family: "Rubik Distressed", system-ui;
+  font-size: 22px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  -webkit-box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  user-select: none;
+}
+
+.title {
+  border-radius: 25px 10px 25px 10px;
+  border: 8px double #d8e1ce;
+  -moz-border-radius: 25px 10px 25px 10px;
+  -webkit-border-radius: 25px 10px 25px 10px;
+  color: #ffffff;
+  font-family: "Rubik Distressed", system-ui;
+  font-size: 22px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  -webkit-box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  user-select: none;
+}
+
+.startGameButton {
+  border-radius: 25px 10px 25px 10px;
+  border: 8px double #d8e1ce;
+  -moz-border-radius: 25px 10px 25px 10px;
+  -webkit-border-radius: 25px 10px 25px 10px;
+  color: #ffffff;
+  font-family: "Rubik Distressed", system-ui;
+  font-size: 22px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  -webkit-box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  user-select: none;
+}
+.startGameButton:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+.startGameButton:active {
+  scale: 1;
+  cursor: grabbing;
+}
+
+.icon {
+  font-size: 50px;
+  margin: 10px;
+  padding: 15px;
+}
+.icon:hover {
+  cursor: pointer;
+  scale: 1.5;
+}
+.icon:active {
+  cursor: grabbing;
+}
+
+.nameHover {
+  display: none;
+  position: absolute;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.icon:hover .nameHover {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.status {
+  border-radius: 25px 10px 25px 10px;
+  border: 8px double #d8e1ce;
+  -moz-border-radius: 25px 10px 25px 10px;
+  -webkit-border-radius: 25px 10px 25px 10px;
+  color: #ffffff;
+  font-family: "Rubik Distressed", system-ui;
+  font-size: 22px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  margin: 5px;
+  padding: 5px 10px 5px 10px;
+  -webkit-box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 5px 5px 36px 5px rgba(0, 0, 0, 0.7);
+  user-select: none;
+}
+
+.selected {
+  scale: 1.8;
+}
+
+.sprite {
+  background-image: url("Parrot.png");
+  background-size: 700px;
+  background-position: 0 0;
+  height: 143px;
+  width: 140px;
+}
+
+.spriteA {
+  background-image: url("Antelope.png");
+  background-size: 700px;
+  background-position: 0 0;
+  height: 90px;
+  width: 141px;
+}
+
+.animalOption {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.animalRoad {
+  position: relative;
+  width: 80%;
+  height: 150px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.5s linear;
+}
+
+/*# sourceMappingURL=style.css.map */
